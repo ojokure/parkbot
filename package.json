@@ -1,0 +1,23 @@
+{
+  "name": "parkbot",
+  "version": "1.0.0",
+  "description": "parking assistance chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojokure/parkbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojokure/parkbot/issues"
+  },
+  "homepage": "https://github.com/ojokure/parkbot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "twilio": "^3.43.0"
+  }
+}
