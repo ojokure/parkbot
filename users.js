@@ -39,3 +39,16 @@ class UserDB {
     return data[key];
   }
 }
+export class Users {
+  db = new DB();
+  isNoMessagesYetFromUser(from) {
+    return true;
+  }
+  addMessageToDB(user, botOrAgent = "user" | "agent", message) {
+    this.db.push(
+      "messagaes",
+      user,
+      new Date() + "\t" + botOrAgent + ": " + message
+    );
+  }
+}
