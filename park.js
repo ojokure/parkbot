@@ -18,6 +18,18 @@
 //   });
 // }
 
+// function objToFORM(obj) {
+//     const params = new URLSearchParams()
+//     for (var a in obj) {
+//       params.append(a, obj[a])
+//     }
+//     return params
+//   }
+
+//   function JSONRemoveUndefined(obj) {
+//     return JSON.parse(JSON.stringify(obj))
+//   }
+
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = require("twilio")(accountSid, authToken);
