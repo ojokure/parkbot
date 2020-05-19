@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/ojokure/parkbot#readme",
   "dependencies": {
+    "actions-on-google": "^2.12.0",
     "dialogflow": "^1.2.0",
     "dialogflow-fulfillment": "^0.6.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "ngrok": "^3.2.7",
     "twilio": "^3.43.0",
     "typescript": "^3.9.2"
   }

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import { Stringify } from "./utils";
 
-class UserDB {
+class DB {
   save(type, key, value) {
     let data = {};
 
