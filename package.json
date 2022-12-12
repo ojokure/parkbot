@@ -21,7 +21,7 @@
     "dialogflow": "^1.2.0",
     "dialogflow-fulfillment": "^0.6.1",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "google-auth-library": "^6.0.0",
     "ngrok": "^3.2.7",
     "twilio": "^3.43.0",
